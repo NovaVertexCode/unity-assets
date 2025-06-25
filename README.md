@@ -1,7 +1,5 @@
 # Dialogue Graph Engine
 
-# My Unity Asset - Awesome Tool
-
 ## Description
 This is an incredible tool designed for Unity developers to enhance their workflow. It provides a set of powerful features including custom scripting, optimized performance, and an intuitive interface. Perfect for both beginners and experienced developers looking to streamline their projects.
 
@@ -17,7 +15,7 @@ This is an incredible tool designed for Unity developers to enhance their workfl
 - Cross-platform compatibility
 
 ## Documentation
-[Download PDF Instructions](instructions.pdf)
+[Download PDF Instructions](documentation.pdf)
 
 ## Video Tutorial
 [![Watch Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
