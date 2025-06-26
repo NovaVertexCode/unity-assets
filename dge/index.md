@@ -5,8 +5,8 @@ A robust Unity dialogue system for crafting interactive conversations. Use the n
 
 ## Скриншоты
 ![Скриншот 1](screenshots/screen1.png)
-![Скриншот 2](screenshots/screen1.png)
-![Скриншот 3](screenshots/screen2.png)
+![Скриншот 2](screenshots/screen2.png)
+![Скриншот 3](screenshots/screen3.png)
 
 ## Особенности
 - Node-Based Editor: Design dialogue flows visually with an intuitive graph interface.
@@ -20,7 +20,7 @@ A robust Unity dialogue system for crafting interactive conversations. Use the n
 [Download PDF Instructions](documentation.pdf)
 
 ## Video Tutorial
-[![Dialog creation](screenshots/graph_creation_tutorial_preview)](https://vimeo.com/1096676505/79b6f16bbc)
+[![Dialog creation](screenshots/graph_creation_tutorial_preview.png)](https://vimeo.com/1096676505/79b6f16bbc)
 
 ## Ссылка
 - [Скачать на Asset Store](https://assetstore.unity.com/packages/slug/12345)
