@@ -1,17 +1,9 @@
-# Мои Ассеты для Unity
+# Unity Assets by Nova Vertex Code
 
-Добро пожаловать на страницу, где собраны мои ассеты для Unity Asset Store. Нажмите на ссылку, чтобы узнать больше о каждом ассете.
+Enhanced tools to realize bold ideas in your projects!
 
-## Список ассетов
+## List of Assets
 
-- [DGE - Dialog Graph Editor](dge/)
-  - Описание: Инструмент для создания графа диалогов.
-  - [Скачать на Asset Store](https://assetstore.unity.com/packages/slug/12345)
-
-- [Asset 2 Name](asset2/)
-  - Описание: Уникальный ассет для оптимизации проектов.
-  - [Скачать на Asset Store](https://assetstore.unity.com/packages/slug/67890)
-
-## Дополнительные ресурсы
-- [Инструкции](assets/instructions.pdf)
-- [Видео-туториал](https://vimeo.com/your-video-id)
+- [Dialog Graph Engine](dge/)
+  - Description: A tool for creating dialog graphs.
+  - [Download on Asset Store](https://assetstore.unity.com/)
