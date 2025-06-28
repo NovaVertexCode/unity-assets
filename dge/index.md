@@ -22,6 +22,7 @@ This Unity dialogue system enables the creation of interactive conversations wit
 
 ## Video Tutorial
 [![Dialog creation](screenshots/graph_creation_tutorial_preview.png)](https://vimeo.com/1096676505/79b6f16bbc)
+[![Base configuration](screenshots/base_configuration_tutorial_preview.png)](https://vimeo.com/1097186382/9bf7d72e8b)
 
 ## Link
 - [Download on Asset Store](https://assetstore.unity.com/packages/slug/12345)
