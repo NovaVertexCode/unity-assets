@@ -18,7 +18,7 @@ This Unity dialogue system enables the creation of interactive conversations wit
 - Customizable Nodes: Support for text nodes, action nodes, and randomization nodes, with the ability to extend node data.
 
 ## Documentation
-[Download PDF Instructions](documentation.pdf)
+[Download PDF Instructions](documentation/documentation.pdf)
 
 ## Video Tutorial
 [![Dialog creation](screenshots/graph_creation_tutorial_preview.png)](https://vimeo.com/1096676505/79b6f16bbc)
