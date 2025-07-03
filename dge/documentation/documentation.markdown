@@ -1,6 +1,6 @@
 # Dialog Graph Engine Guide
 
-This guide provides a clear and detailed explanation of working with the **Dialog Graph Engine** in Unity to create and manage dialog graphs in your projects.
+This guide provides a detailed and clear explanation of working with the **Dialog Graph Engine** in Unity to create and manage dialog graphs in your projects.
 
 ## Getting Started
 
@@ -10,6 +10,8 @@ To start using Dialog Graph Engine, follow these steps after importing the `.uni
    - In the Unity Editor, navigate to the menu **Window > Dialog Graph**.
 
 ![][image1]
+
+<div style="page-break-after: always;"></div>
 
 ## Creating and Selecting Dialogs
 
@@ -23,6 +25,8 @@ To start using Dialog Graph Engine, follow these steps after importing the `.uni
   3. The editor will automatically switch to the new dialog.
 - **Storage**: All dialogs are saved as node sets in the `Resources/DGEDialogs` directory, with each dialog in a separate folder.
 
+<div style="page-break-after: always;"></div>
+
 ## Creating Nodes
 
 To add nodes to the dialog graph:
@@ -34,7 +38,10 @@ To add nodes to the dialog graph:
    - **Random Node**
 
 To view the `.asset` data file of a specific node in the project hierarchy, use the **Go to Data** button in the node's header on the graph.
+
 ![][image5]
+
+<div style="page-break-after: always;"></div>
 
 ## Node Types and Their Features
 
@@ -68,6 +75,8 @@ Dialog Graph Engine supports three node types, each with unique properties and c
 - **Output Ports** (One-to-One):
   - **Allowed Connections**: Text Node.
 
+<div style="page-break-after: always;"></div>
+
 ## Using Dialogs in a Scene
 
 The **DGEDialogSelection** script manages dialogs in a Unity scene.
@@ -81,6 +90,10 @@ The **DGEDialogSelection** script manages dialogs in a Unity scene.
      ```csharp
      public UnityEvent<DGEBaseNode> onUpdateData;
      ```
+   - Use the `onDialogEnd` event to handle dialog completion:
+     ```csharp
+     public UnityEvent onDialogEnd;
+     ```
 
    - The `onUpdateData` event passes nodes of type `DGEBaseNode`, starting from the node following `StartNode`.
      ```csharp
@@ -88,6 +101,8 @@ The **DGEDialogSelection** script manages dialogs in a Unity scene.
 
      // Subscribe to dialog updates
      dialogSelection.onUpdateData.AddListener(UpdateDialog);
+     // Subscribe to dialog completion
+     dialogSelection.onDialogEnd.AddListener(DialogEnd);
 
      private void UpdateDialog(DGEBaseNode node)
      {
@@ -98,6 +113,11 @@ The **DGEDialogSelection** script manages dialogs in a Unity scene.
              dialogSelection.SelectAction(actionNode);
          }
      }
+
+     private void DialogEnd()
+     {
+         // Your code after dialog completion
+     }
      ```
 
 3. **Starting a Dialog**:
@@ -105,6 +125,8 @@ The **DGEDialogSelection** script manages dialogs in a Unity scene.
      ```csharp
      dialogSelection.StartDialog();
      ```
+
+<div style="page-break-after: always;"></div>
 
 ## Customizing Nodes
 
