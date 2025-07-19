@@ -1,6 +1,31 @@
-theme: slate
+# Основные настройки сайта
+theme: minima
 title: Nova Vertex Code
 description: Unity Assets for Educational and Interactive Applications
-url: "https://novavertexcode.github.io/unity-assets"
-remote_theme: pages-themes/slate@v0.2.0
-plugins: - jekyll-remote-theme # add this line to the plugins list if you already have one
+url: "url: "https://novavertexcode.github.io/unity-assets" # Ваш базовый URL
+
+# Настройки Minima
+minima:
+  skin: dark # Варианты: classic, dark, auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/yourusername" }
+    # Добавьте другие соцсети, если нужно (например, LinkedIn)
+
+# Настройки Jekyll
+markdown: kramdown
+permalink: pretty # Чистые URL без .html
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Плагины
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Настройки для SEO
+author:
+  name: Nova Vertex Code
+  email: nova.vertex.code@yandex.com
