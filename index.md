@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="/assets/css/style.css">
-
 # Unity Assets by Nova Vertex Code
 
 Enhanced tools to realize bold ideas in your projects!
